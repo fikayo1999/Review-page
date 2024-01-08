@@ -1,0 +1,80 @@
+.review {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 6px 6px rgba(238, 230, 230, 0.404);
+    border-radius: 8px;
+    padding: 10px 20px;
+    height: 400px;
+    width: 500px;
+}
+
+
+.person-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 150px 150px;
+    border-right: 9px solid blue;
+}
+
+.quote-icon {
+    position: absolute;
+    top: 200px;
+    left: 595px;
+    background-color: blue;
+    padding: 5px 6px;   
+    border-radius: 70px 70px;
+}
+
+.right {
+    font-size: 15px;
+    color: white;
+}
+
+.author {
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.job {
+    text-transform: capitalize;
+    color: blue;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.info {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.button-container {
+    display: flex;
+    gap: 16px;
+}
+
+.prev-btn, .next-btn {
+    font-size: 25px;
+    font-weight: 800;
+    color: blue;
+    background-color: rgb(224, 224, 241);
+    border:none;
+    margin-top: -10px;
+    border-radius: 5px;
+}
+
+.random-btn {
+    text-transform: capitalize;
+    color: blue;
+    font-size: 19px;
+    margin-top: -7px;
+    border: none;
+    background: rgb(244, 244, 250);
+    padding: 3px 8px;
+}
